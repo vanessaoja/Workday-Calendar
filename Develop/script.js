@@ -96,7 +96,7 @@
 
  //gets data for the header date
  function getHeaderDate() {
-     var currentHeaderDate = moment.format('dddd, MMMM, Do');
+     var currentHeaderDate = moment.format('dddd, MMMM Do');
      $("#currentDay").text(currentHeaderDate);
  }
 
@@ -110,4 +110,15 @@
      myDay.forEach(function (_thisHour) {
          $('#${_thisHour.id}').val(_thisHour.reminder);
      }) 
+ }
+
+ //sets any exsisting localStorage data to the view if it exists
+ function init() {
+     var storedDay = JSON.parse(localStorage.getItem("myDay"));
+     if (storedDay) {
+         myDay = storedDay;
+     }
+
+     saveReminders();
+     displayReminders();
  }
