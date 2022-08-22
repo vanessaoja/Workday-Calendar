@@ -100,4 +100,7 @@
      $("#currentDay").text(currentHeaderDate);
  }
 
- 
+ //saves data to local storage
+ function saveReminders() {
+     localStorage.setItem("myDay", JSON.stringify(myDay));
+ }
