@@ -175,3 +175,13 @@ const moment = require("moment");
 
     //loads existing localStorage data after components created
     init();
+
+    //saves data to be used in localStorage
+    $(".saveBtn").on("click", function(event) {
+        event.preventDefault();
+        var saveIndex = $(this).siblings(".description").children(".future").val();
+        myDay[saveIndex].reminder = $(this).siblings(".description").children(".future").val();
+        console.log(saveIndex);
+        saveReminders();
+        displayReminders();
+    })
