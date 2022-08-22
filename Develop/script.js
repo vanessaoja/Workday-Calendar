@@ -125,3 +125,24 @@
 
  //loads header date
  getHeaderDate();
+
+ //creates the visuals for the schedular body
+ myDay.forEach(function(thisHour) {
+     //creates timeblocks row
+     var hourRow = $("<form>").attr({
+         "class": "row"
+     });
+     $(".container").append(hourRow);
+     //creates time field
+     var hourField = $("<div>")
+     .text('${thisHour}${thisHour.meridiem}')
+     .attr({
+         "class": "co;-md-2 hour"
+     });
+     //creates scheduler data
+     var hourPlan = $("div")
+     .attr({
+         "class": "col-md-9 description p-0"
+     });
+     
+ })
