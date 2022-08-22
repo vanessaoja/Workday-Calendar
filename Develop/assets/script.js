@@ -1,5 +1,3 @@
-const moment = require("moment");
-
  //variable to store and loop through scheduler
  var myDay = [
      {
@@ -98,7 +96,7 @@ const moment = require("moment");
 
  //gets data for the header date
  function getHeaderDate() {
-     var currentHeaderDate = moment.format('dddd, MMMM Do');
+     var currentHeaderDate = moment().format('dddd, MMMM Do');
      $("#currentDay").text(currentHeaderDate);
  }
 
