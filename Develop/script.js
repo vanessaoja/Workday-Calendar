@@ -122,3 +122,6 @@
      saveReminders();
      displayReminders();
  }
+
+ //loads header date
+ getHeaderDate();
