@@ -170,5 +170,8 @@ const moment = require("moment");
             "class": "col-md-1 saveBtn"
         });
         savePlan.append(saveButton);
-        hourRow.append(hourField, hourPlan, savePlan0);
-    });
+        hourRow.append(hourField, hourPlan, savePlan);
+    })
+
+    //loads existing localStorage data after components created
+    init();
