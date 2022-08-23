@@ -63,6 +63,20 @@ var myDay = [
         meridiem: "pm",
         reminder: ""
     },
+    {
+        id: "9",
+        hour: "04",
+        time: "16",
+        meridiem: "pm",
+        reminder: ""
+    },
+    {
+        id: "10",
+        hour: "05",
+        time: "17",
+        meridiem: "pm",
+        reminder: ""
+    },
     
 ]
 
