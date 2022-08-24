@@ -100,9 +100,10 @@ function displayReminders() {
 
 // sets any existing localStorage data to the view if it exists
 function init() {
-    var storedDay = JSON.parse(localStorage.getItem("myDay"));
+    var storedDay = JSON.parse(localStorage.getItem("myDay", (myDay)));
 
     if (storedDay) {
+        console.log(storedDay);
         myDay = storedDay;
     }
 
