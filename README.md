@@ -1,15 +1,14 @@
 # Work Day Scheduler Starter Code
 
-# <Your-Project-Title>
-
 ## Description
+This project enatailed expressions I was not familiar with. My motivation was to understand loops and variable/functitons better.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+I bult this project to further my knowledge in Javascript/JQuery, the latter being a new concept.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project solves time keeping for the average user. The Work Day Schedular tracks events, reminders, or any other information the user wishes to track and take notes of.
+
+During this project I learned about JSON, the extension for Javascript, beginning with the syntax, "name":"value" . Working with key and values, it is important when are where to put "". For example, the key is always in double ". Strings are as well in double " while numbers and booleans are not, ie: "name":1. The array syntax is [{"name":"value"}, {"name":"value}]
+To create a string in the console.log we must use backticks ('). Since this does not create a Javascript object the use of pasring is involved (JSON.parse). This allows the code to be read as if it was in Javascript, allowing the use for indexes/arrays etc.
 
 ## Table of Contents (Optional)
 
@@ -35,11 +34,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+https://www.youtube.com/watch?v=GpOO5iKzOmY
+https://www.youtube.com/watch?v=IWcUJLUAO2A
 
 ## License
 
@@ -58,7 +54,6 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 ## Features
 
 If your project has a lot of features, list them here.
-
 ## How to Contribute
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
