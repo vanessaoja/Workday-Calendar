@@ -22,3 +22,6 @@ In order to use the Workday Calendar the user locates the present and future tim
 https://www.youtube.com/watch?v=GpOO5iKzOmY
 https://www.youtube.com/watch?v=IWcUJLUAO2A
 https://github.com/lbmoody/simple-day-planner
+
+Connect to my Workday Schedular Here:
+http://127.0.0.1:5500/index.html
